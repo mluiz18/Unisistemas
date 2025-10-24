@@ -1,0 +1,7 @@
+id_exemplar,id_livro,status
+1,1,Disponível
+2,1,Disponível
+2,2,Emprestado
+3,2,Disponível
+3,3,Emprestado
+4,3,Emprestado
