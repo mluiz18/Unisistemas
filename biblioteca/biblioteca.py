@@ -1,5 +1,8 @@
 import gerenciador_dados as db
-from models import Livro, Usuario, Emprestimo, Exemplar
+from models.Emprestimo import Emprestimo
+from models.Exemplar import Exemplar
+from models.Livros import Livro
+from models.Usuario import Usuario
 from datetime import datetime, timedelta
 
 class Biblioteca:

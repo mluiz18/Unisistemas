@@ -1,7 +1,10 @@
 import csv
 import os
 import json
-from models import Livro, Usuario, Emprestimo, Exemplar
+from models.Emprestimo import Emprestimo
+from models.Exemplar import Exemplar
+from models.Livros import Livro
+from models.Usuario import Usuario
 
 DATA_DIR = 'data'
 ARQUIVO_LIVROS = os.path.join(DATA_DIR, 'livros.csv')
