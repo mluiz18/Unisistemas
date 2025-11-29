@@ -1,6 +1,5 @@
 class Emprestimo:
     def __init__(self, id_emprestimo, id_exemplar, id_usuario, data_emprestimo, data_prevista_devolucao, data_devolucao="", status_emprestimo="Ativo"):
-        # Garante que os IDs sejam sempre strings limpas
         self.id_emprestimo = str(id_emprestimo).strip()
         self.id_exemplar = str(id_exemplar).strip()
         self.id_usuario = str(id_usuario).strip()

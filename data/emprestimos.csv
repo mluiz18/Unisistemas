@@ -1,4 +1,2 @@
 id_emprestimo,id_exemplar,id_usuario,data_emprestimo,data_prevista_devolucao,data_devolucao,status_emprestimo
-2,2,1,2025-10-13,2025-10-28,,Ativo
-4,3,2,2025-10-13,2025-10-28,,Ativo
-6,4,3,2025-10-13,2025-10-28,,Ativo
+2,2,1,2025-11-28,2025-12-13,,Ativo
